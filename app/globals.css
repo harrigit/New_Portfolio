@@ -19,10 +19,20 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #0F1724;
 }
+
+.glow {
+  box-shadow: 0 0 10px rgba(36, 162, 200, 0.5);
+  /* Use accent color shadow */
+  transition: box-shadow 0.3s ease-in-out;
+  /* Optional: Add a smooth transition effect */
+}
+
+/* Optionally, you can define a hover effect to make the glow more pronounced */
+.glow:hover {
+  box-shadow: 0 0 15px rgba(36, 162, 200, 0.9);
+  /* Increase the shadow size on hover */
+}
+
+
