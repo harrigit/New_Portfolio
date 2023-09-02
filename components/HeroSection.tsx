@@ -27,7 +27,6 @@ function HeroSection() {
           </button>
         </div>
         <div className='col-span-2 lg:col-span-1 order-1 lg:order-2 h-[11rem] sm:h-[13rem] lg:h-full'>
-          {/* TODO add an image */}
           <div className='relative'>
             <div className='absolute z-[10] top-[70px] lg:top-[8rem] right-[0px] lg:right-[6rem]'>
               <Image

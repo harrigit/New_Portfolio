@@ -36,3 +36,20 @@ body {
 }
 
 
+.advanced {
+  width: 75%;
+}
+
+.proficient {
+  width: 66%;
+}
+
+@media (max-width: 1024px) {
+  .advanced {
+    width: 100%;
+  }
+
+  .proficient {
+    width: 80%;
+  }
+}
