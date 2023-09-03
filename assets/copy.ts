@@ -4,6 +4,7 @@ import {
   TechLevel,
   DetailTechList,
   CarrierTimeline,
+  Contact,
 } from "@/types";
 
 export const HERO_DESCRIPTION =
@@ -168,3 +169,8 @@ export const CARRIER_TIMELINE: CarrierTimeline[] = [
       "During my tenure as a Web Developer on platforms like Fiverr and Upwork, I honed my skills in JavaScript development and established myself as a versatile developer with expertise in creating custom web solutions. My role involved collaborating with a diverse clientele on various projects, from website enhancements and front-end optimizations to building interactive web applications. I acquired proficiency in problem-solving and debugging, ensuring that projects met client specifications and delivered exceptional user experiences.",
   },
 ];
+
+export const CONTACT: Contact = {
+  phoneNumber: "+92 335-0739240",
+  email: "naveedabdullah700@gmail.com",
+};

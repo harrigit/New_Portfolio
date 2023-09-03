@@ -28,3 +28,8 @@ export interface CarrierTimeline {
   company: string;
   jobDescription: string;
 }
+
+export interface Contact {
+  email: string;
+  phoneNumber: string;
+}
