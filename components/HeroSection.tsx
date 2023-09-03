@@ -10,7 +10,7 @@ function HeroSection() {
     <div className='mt-16 mx-8 xl:mx-auto'>
       <div className='grid grid-cols-2'>
         {/* Add some shapes to the backend make it more interesting */}
-        <div className='space-y-12 my-32 col-span-2 lg:col-span-1 order-2 lg:order-1'>
+        <div className='space-y-12 my-16 lg:my-32 col-span-2 lg:col-span-1 order-2 lg:order-1'>
           <div>
             <div className='bg-clip-text text-transparent bg-gradient-to-r from-secondary to-accent text-7xl inline-block'>
               {"Hi, I'm Naveed,"}

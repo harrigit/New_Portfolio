@@ -50,7 +50,7 @@ export const PROJECTS: Project[] = [
 
 export const TECHNOLOGIES: Technology[] = [
   {
-    name: "HTML, CSS, SCSS, TailwindCSS",
+    name: "HTML, CSS, SCSS",
     eg: "",
     level: TechLevel.Advanced,
   },
