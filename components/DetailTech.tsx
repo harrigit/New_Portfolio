@@ -12,9 +12,9 @@ function DetailTech({ techName, listing }: DetailTechList) {
         </div>
         <ul className="list-none">
           {listing.map((tech, index) => ( 
-            <li className='p-2 xl:pl-6 flex items-baseline justify-start space-x-4 lg:space-x-4' key={index}>
-              <div className='h-2 w-2 bg-gradient-to-r from-secondary to-accent rounded-full'></div>
-              <span className="text-lg">{tech}</span>
+            <li className='p-2 xl:pl-6 items-baseline grid grid-cols-12 justify-start' key={index}>
+              <div className='z-10 h-2 w-2 min-w-fit col-span-1 bg-gradient-to-r from-secondary to-accent rounded-full'></div>
+              <span className="text-lg text-left col-span-10">{tech}</span>
             </li>
           ))}
         </ul>
