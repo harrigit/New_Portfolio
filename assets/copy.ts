@@ -171,6 +171,7 @@ export const CARRIER_TIMELINE: CarrierTimeline[] = [
 ];
 
 export const CONTACT: Contact = {
-  phoneNumber: "+92 335-0739240",
+  phoneNumber: "+92 302-1711192",
   email: "naveedabdullah700@gmail.com",
+  skype: "live:naveedabdullah700",
 };

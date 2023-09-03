@@ -32,4 +32,5 @@ export interface CarrierTimeline {
 export interface Contact {
   email: string;
   phoneNumber: string;
+  skype: string;
 }
