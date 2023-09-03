@@ -2,7 +2,6 @@ import React from "react";
 import GithubIcon from "@/assets/icons/GithubIcon";
 import LinkedinIcon from "@/assets/icons/LinkedInIcon";
 import MediumIcon from "@/assets/icons/MediumIcon";
-import WhatsAppIcon from "@/assets/icons/WhatsAppIcon";
 import EmailIcon from "@/assets/icons/EmailIcon";
 import SkypeIcon from "@/assets/icons/SkypeIcon";
 import { CONTACT } from "@/assets/copy";
