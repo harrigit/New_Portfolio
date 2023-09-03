@@ -15,7 +15,7 @@ function HeroSection() {
             <div className='bg-clip-text text-transparent bg-gradient-to-r from-secondary to-accent text-7xl inline-block'>
               {"Hi, I'm Naveed,"}
             </div>
-            <span className='text-4xl md:text-5xl xl:text-7xl block'>full stack developer</span>
+            <span className='mt-2 text-3xl md:text-5xl xl:text-7xl block'>full stack developer</span>
           </div>
           <p className='text-md text-gray-500'>{HERO_DESCRIPTION}</p>
           <button
