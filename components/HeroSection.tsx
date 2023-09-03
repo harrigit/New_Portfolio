@@ -7,7 +7,7 @@ import Image from "next/image";
 
 function HeroSection() {
   return (
-    <div className='mx-8 xl:mx-auto'>
+    <div className='mt-24 mx-8 xl:mx-auto'>
       <div className='grid grid-cols-2'>
         {/* Add some shapes to the backend make it more interesting */}
         <div className='space-y-12 my-32 col-span-2 lg:col-span-1 order-2 lg:order-1'>
@@ -33,7 +33,7 @@ function HeroSection() {
                 src='/photo.jpg'
                 width={200}
                 height={200}
-                className='rounded-full'
+                className='rounded-full glow'
                 alt='Picture of the author'
               />
             </div>

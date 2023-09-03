@@ -13,14 +13,8 @@ interface CustomLinkProps extends LinkProps {
 
 function CustomScrollLink({ to, children }: CustomLinkProps) {
   return (
-    <ScrollLink
-      to={to}
-      smooth={true}
-      duration={800}
-      spy={true}
-      offset={-100} 
-    >
-      {children}
+    <ScrollLink to={to} smooth={true} duration={800} spy={true} offset={-100}>
+      <span className="text-xl font-semibold">{children}</span>
     </ScrollLink>
   ) as JSX.Element;
 }

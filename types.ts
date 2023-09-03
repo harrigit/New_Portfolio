@@ -1,9 +1,9 @@
-export type Project = {
+export interface Project {
   name: string;
   description: string;
   technologies: string[];
   image: string | null;
-};
+}
 
 export enum TechLevel {
   Advanced,
@@ -11,8 +11,20 @@ export enum TechLevel {
   Learning,
 }
 
-export type Technology = {
+export interface Technology {
   name: string;
   eg: string;
   level: TechLevel;
-};
+}
+
+export interface DetailTechList {
+  techName: string;
+  listing: string[];
+}
+
+export interface CarrierTimeline {
+  date: string;
+  position: string;
+  company: string;
+  jobDescription: string;
+}
