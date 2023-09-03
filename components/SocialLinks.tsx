@@ -23,16 +23,27 @@ const SocialLinks = ({ footer }: Props) => {
   const mediumURL = "https://medium.com/@naveedniazi";
 
   return (
-    <div className='flex justify-end space-x-4 cursor-pointer'>
-      <GithubIcon onClick={() => openInNewTab(githubUrl)} />
-      <LinkedinIcon onClick={() => openInNewTab(linkedinUrl)} />
-      <MediumIcon onClick={() => openInNewTab(mediumURL)} />
+    <div className='flex justify-end space-x-4'>
+      <GithubIcon
+        className='cursor-pointer'
+        onClick={() => openInNewTab(githubUrl)}
+      />
+      <LinkedinIcon
+        className='cursor-pointer'
+        onClick={() => openInNewTab(linkedinUrl)}
+      />
+      <MediumIcon
+        className='cursor-pointer'
+        onClick={() => openInNewTab(mediumURL)}
+      />
       {footer && (
         <>
           <SkypeIcon
+            className='cursor-pointer'
             onClick={() => (window.location.href = `tel:${CONTACT.email}`)}
           />
           <EmailIcon
+            className='cursor-pointer'
             onClick={() => (window.location.href = `mailto:${CONTACT.email}`)}
           />
         </>

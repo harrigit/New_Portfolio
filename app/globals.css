@@ -20,6 +20,8 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: #0F1724;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;    
 }
 
 .glow {
