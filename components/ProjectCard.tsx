@@ -16,7 +16,7 @@ function ProjectCard({ name, description }: Project) {
           <p className='text-2xl py-2 font-bold'>{name}</p>
           <p className='text-sm text-gray-400'>{description}</p>
         </div>
-        <div className='pt-4 w-full flex justify-between space-x-2 '>
+        <div className='pt-4 w-full grid gap-2 lg:grid-cols-2 '>
           <button className='px-2 py-2 xl:px-4 xl:py-3 shadow-md rounded-3xl bg-gradient-to-r from-secondary to-accent glow'>
             Live Preview
           </button>
