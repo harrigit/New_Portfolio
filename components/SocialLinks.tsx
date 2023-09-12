@@ -5,13 +5,7 @@ import MediumIcon from "@/assets/icons/MediumIcon";
 import EmailIcon from "@/assets/icons/EmailIcon";
 import SkypeIcon from "@/assets/icons/SkypeIcon";
 import { CONTACT } from "@/assets/copy";
-
-const openInNewTab = (url: string) => {
-  const newTab = window.open(url, "_blank");
-  if (newTab) {
-    newTab.focus();
-  }
-};
+import openInNewTab from "@/utils/openInNewTab";
 
 interface Props {
   footer?: boolean;
@@ -24,18 +18,9 @@ const SocialLinks = ({ footer }: Props) => {
 
   return (
     <div className='flex justify-end space-x-4'>
-      <GithubIcon
-        className='cursor-pointer'
-        onClick={() => openInNewTab(githubUrl)}
-      />
-      <LinkedinIcon
-        className='cursor-pointer'
-        onClick={() => openInNewTab(linkedinUrl)}
-      />
-      <MediumIcon
-        className='cursor-pointer'
-        onClick={() => openInNewTab(mediumURL)}
-      />
+      <GithubIcon className='cursor-pointer' onClick={() => openInNewTab(githubUrl)} />
+      <LinkedinIcon className='cursor-pointer' onClick={() => openInNewTab(linkedinUrl)} />
+      <MediumIcon className='cursor-pointer' onClick={() => openInNewTab(mediumURL)} />
       {footer && (
         <>
           <SkypeIcon

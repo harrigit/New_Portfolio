@@ -3,6 +3,9 @@ export interface Project {
   description: string;
   technologies: string[];
   image: string | null;
+  date?: string;
+  githubLink?: string;
+  websiteLink?: string;
 }
 
 export enum TechLevel {
