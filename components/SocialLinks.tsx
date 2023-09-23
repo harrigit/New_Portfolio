@@ -4,23 +4,24 @@ import LinkedinIcon from "@/assets/icons/LinkedInIcon";
 import MediumIcon from "@/assets/icons/MediumIcon";
 import EmailIcon from "@/assets/icons/EmailIcon";
 import SkypeIcon from "@/assets/icons/SkypeIcon";
-import { CONTACT } from "@/assets/copy";
+import { CONTACT, SOCIAL_LINKS } from "@/assets/copy";
 import openInNewTab from "@/utils/openInNewTab";
+import UpworkIcon from "@/assets/icons/UpworkIcon";
 
 interface Props {
   footer?: boolean;
 }
 
 const SocialLinks = ({ footer }: Props) => {
-  const githubUrl = "https://github.com/naveed-niazi";
-  const linkedinUrl = "https://www.linkedin.com/in/naveedniazi";
-  const mediumURL = "https://medium.com/@naveedniazi";
-
   return (
     <div className='flex justify-end space-x-4'>
-      <GithubIcon className='cursor-pointer' onClick={() => openInNewTab(githubUrl)} />
-      <LinkedinIcon className='cursor-pointer' onClick={() => openInNewTab(linkedinUrl)} />
-      <MediumIcon className='cursor-pointer' onClick={() => openInNewTab(mediumURL)} />
+      <GithubIcon className='cursor-pointer' onClick={() => openInNewTab(SOCIAL_LINKS.githubUrl)} />
+      <LinkedinIcon
+        className='cursor-pointer'
+        onClick={() => openInNewTab(SOCIAL_LINKS.linkedinUrl)}
+      />
+      <MediumIcon className='cursor-pointer' onClick={() => openInNewTab(SOCIAL_LINKS.mediumURL)} />
+      <UpworkIcon className='cursor-pointer' onClick={() => openInNewTab(SOCIAL_LINKS.upworkURL)} />
       {footer && (
         <>
           <SkypeIcon

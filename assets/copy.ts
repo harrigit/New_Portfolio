@@ -114,6 +114,13 @@ export const DETAIL_TECH_LIST: DetailTechList[] = [
   },
 ];
 
+export const SOCIAL_LINKS = {
+  githubUrl: "https://github.com/naveed-niazi",
+  linkedinUrl: "https://www.linkedin.com/in/naveedniazi",
+  mediumURL: "https://medium.com/@naveedniazi",
+  upworkURL: "https://www.upwork.com/freelancers/~01a5e6ab918567d37d",
+};
+
 export const CARRIER_TIMELINE: CarrierTimeline[] = [
   {
     date: "June 2023 - Present",
