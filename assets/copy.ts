@@ -116,14 +116,14 @@ export const DETAIL_TECH_LIST: DetailTechList[] = [
 
 export const CARRIER_TIMELINE: CarrierTimeline[] = [
   {
-    date: "March 2023 - Present",
+    date: "June 2023 - Present",
     company: "NESL-IT",
     position: "Senior Full Stack Web Developer",
     jobDescription:
       "As the Team Lead at NESL-IT, I play a pivotal role in driving the development of high-quality web applications and services. My responsibilities include leading and mentoring a team of developers, ensuring adherence to best practices, and optimizing code for scalability and performance. I actively contribute to architectural decisions and collaborate closely with cross-functional teams to deliver exceptional digital solutions.",
   },
   {
-    date: "Oct 2021 - Feb 2023",
+    date: "Oct 2021 - May 2023",
     company: "Micromerger",
     position: "Full Stack Web Developer",
     jobDescription:
