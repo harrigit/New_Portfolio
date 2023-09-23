@@ -8,7 +8,7 @@ import React from "react";
 function ProjectCard({ name, description, image, githubLink, websiteLink }: Project) {
   return (
     <div className='inline-block  md:w-min rounded-xl bg-gradient-to-r from-secondary  to-accent'>
-      <div className='rounded-xl p-6 md:w-[400px] h-[450px] m-[1px] bg-primary flex flex-col justify-between items-center'>
+      <div className='rounded-xl p-6 md:w-[400px] h-max m-[1px] bg-primary flex flex-col justify-between items-center'>
         <div className='space-y-4'>
           <Image
             src={image ?? "/project.png"}
