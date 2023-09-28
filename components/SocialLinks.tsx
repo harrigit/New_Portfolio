@@ -15,7 +15,6 @@ interface Props {
 const SocialLinks = ({ footer }: Props) => {
   return (
     <div className='flex justify-end space-x-4'>
-      <GithubIcon className='cursor-pointer' onClick={() => openInNewTab(SOCIAL_LINKS.githubUrl)} />
       <LinkedinIcon
         className='cursor-pointer'
         onClick={() => openInNewTab(SOCIAL_LINKS.linkedinUrl)}
@@ -24,6 +23,10 @@ const SocialLinks = ({ footer }: Props) => {
       <UpworkIcon className='cursor-pointer' onClick={() => openInNewTab(SOCIAL_LINKS.upworkURL)} />
       {footer && (
         <>
+          <GithubIcon
+            className='cursor-pointer'
+            onClick={() => openInNewTab(SOCIAL_LINKS.githubUrl)}
+          />
           <SkypeIcon
             className='cursor-pointer'
             onClick={() => (window.location.href = `tel:${CONTACT.email}`)}

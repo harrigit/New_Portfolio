@@ -7,7 +7,7 @@ import Image from "next/image";
 
 function HeroSection() {
   return (
-    <div className='mt-16 mx-8 xl:mx-auto'>
+    <div className='mt-16 mx-2 sm:mx-8 xl:mx-auto'>
       <div className='grid grid-cols-2'>
         {/* Add some shapes to the backend make it more interesting */}
         <div className='space-y-12 my-24 lg:my-32 col-span-2 lg:col-span-1 order-2 lg:order-1'>
@@ -15,7 +15,9 @@ function HeroSection() {
             <div className='bg-clip-text text-transparent bg-gradient-to-r from-secondary to-accent text-7xl inline-block'>
               {"Hi, I'm Naveed,"}
             </div>
-            <span className='mt-2 text-3xl md:text-5xl xl:text-7xl block'>full stack developer</span>
+            <span className='mt-2 text-3xl md:text-5xl xl:text-7xl block'>
+              full stack developer
+            </span>
           </div>
           <p className='text-md text-gray-500'>{HERO_DESCRIPTION}</p>
           <button

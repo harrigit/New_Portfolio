@@ -4,7 +4,7 @@ import { CARRIER_TIMELINE } from "@/assets/copy";
 
 function AboutmeSections() {
   return (
-    <div id='about_me' className='mx-8 xl:mx-auto space-y-12'>
+    <div id='about_me' className='mx-2 sm:mx-8 xl:mx-auto space-y-12'>
       <span className='text-4xl font-semibold'>About me</span>
       <Timeline />
     </div>
