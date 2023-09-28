@@ -10,7 +10,7 @@ export const PROJECTS: Project[] = [
     description:
       "A portal used by International Islamic University to manage all the Final Year Projects and Research. This portal digitalized the whole process of project management",
     technologies: ["react", "nodejs", "mongodb", "express"],
-    githubLink: "https://github.com/naveed-niazi/fyp-portal",
+    githubLink: "https://github.com/naveed-niazi",
     websiteLink: "http://pnr.iiu.edu.pk:64469",
     image: "/PNR.png",
   },
