@@ -19,14 +19,10 @@ const SocialLinks = ({ footer }: Props) => {
         className='cursor-pointer'
         onClick={() => openInNewTab(SOCIAL_LINKS.linkedinUrl)}
       />
-      <MediumIcon className='cursor-pointer' onClick={() => openInNewTab(SOCIAL_LINKS.mediumURL)} />
+      <GithubIcon className='cursor-pointer' onClick={() => openInNewTab(SOCIAL_LINKS.githubUrl)} />
       <UpworkIcon className='cursor-pointer' onClick={() => openInNewTab(SOCIAL_LINKS.upworkURL)} />
       {footer && (
         <>
-          <GithubIcon
-            className='cursor-pointer'
-            onClick={() => openInNewTab(SOCIAL_LINKS.githubUrl)}
-          />
           <SkypeIcon
             className='cursor-pointer'
             onClick={() => (window.location.href = `tel:${CONTACT.email}`)}
@@ -34,6 +30,10 @@ const SocialLinks = ({ footer }: Props) => {
           <EmailIcon
             className='cursor-pointer'
             onClick={() => (window.location.href = `mailto:${CONTACT.email}`)}
+          />
+          <MediumIcon
+            className='cursor-pointer'
+            onClick={() => openInNewTab(SOCIAL_LINKS.mediumURL)}
           />
         </>
       )}
