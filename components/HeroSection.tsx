@@ -1,9 +1,10 @@
 "use client";
-import { HERO_DESCRIPTION } from "@/assets/copy";
+import { HERO_DESCRIPTION, SOCIAL_LINKS } from "@/assets/copy";
 import handleCVDownload from "@/utils/downloadCV";
 import React from "react";
 import HeroBackdrop from "./HeroBackdrop";
 import Image from "next/image";
+import openInNewTab from "@/utils/openInNewTab";
 
 function HeroSection() {
   return (
@@ -20,13 +21,22 @@ function HeroSection() {
             </span>
           </div>
           <p className='text-md text-gray-500'>{HERO_DESCRIPTION}</p>
-          <button
-            type='button'
-            className='px-5 py-3 shadow-md rounded-3xl glow bg-gradient-to-r from-secondary to-accent'
-            onClick={handleCVDownload}
-          >
-            Download CV
-          </button>
+          <div className='grid grid-cols-2 md:grid-cols-3 gap-x-4'>
+            <button
+              type='button'
+              className='px-5 py-3 shadow-md rounded-3xl glow bg-gradient-to-r from-secondary to-accent'
+              onClick={handleCVDownload}
+            >
+              <span className='font-semibold'>Download CV</span>
+            </button>
+            <button
+              type='button'
+              className='px-5 py-3 shadow-md rounded-3xl glow bg-gradient-to-r from-accent to-secondary'
+              onClick={() => openInNewTab(SOCIAL_LINKS.upworkURL)}
+            >
+              <span className='font-semibold'>Hire Me</span>
+            </button>
+          </div>
         </div>
         <div className='col-span-2 lg:col-span-1 order-1 lg:order-2 h-[11rem] sm:h-[13rem] lg:h-full'>
           <div className='relative'>

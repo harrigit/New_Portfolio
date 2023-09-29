@@ -11,7 +11,7 @@ export default function Home() {
     <main className='container mx-auto'>
       <Header />
       <HeroSection />
-      <ProjectSection />
+      {/* <ProjectSection /> */}
       <TechnologiesSection />
       <AdditionalTechnologies />
       <AboutmeSections />
