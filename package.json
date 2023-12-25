@@ -24,6 +24,7 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
-    "@types/react-scroll": "^1.8.7"
+    "@types/react-scroll": "^1.8.7",
+    "daisyui": "^4.4.24"
   }
 }

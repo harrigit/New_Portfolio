@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,6 +7,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --color-secondary: 162, 123, 92;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,26 +18,23 @@
   }
 }
 
+[data-theme="dark"] {
+  --color-secondary: 144, 93, 208;
+}
 body {
   color: rgb(var(--foreground-rgb));
-  background: #0F1724;
   -webkit-tap-highlight-color: transparent;
-  user-select: none;    
+  user-select: none;
 }
 
 .glow {
-  box-shadow: 0 0 10px rgba(36, 162, 200, 0.5);
-  /* Use accent color shadow */
+  box-shadow: 0 0 10px rgba(var(--color-secondary), 0.5);
   transition: box-shadow 0.3s ease-in-out;
-  /* Optional: Add a smooth transition effect */
 }
 
-/* Optionally, you can define a hover effect to make the glow more pronounced */
 .glow:hover {
-  box-shadow: 0 0 15px rgba(36, 162, 200, 0.9);
-  /* Increase the shadow size on hover */
+  box-shadow: 0 0 15px rgba(var(--color-secondary), 0.9);
 }
-
 
 .advanced {
   width: 75%;
@@ -54,4 +52,15 @@ body {
   .proficient {
     width: 80%;
   }
+}
+svg {
+  @apply stroke-secondary fill-secondary;
+}
+
+.theme-button svg {
+  @apply stroke-primary fill-primary;
+}
+
+.upwork svg {
+  @apply fill-primary stroke-primary;
 }

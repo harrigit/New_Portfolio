@@ -8,7 +8,7 @@ import TechnologiesSection from "@/components/TechnologiesSection";
 
 export default function Home() {
   return (
-    <main className='container mx-auto'>
+    <main className="container mx-auto px-8  text-base-content bg-primary">
       <Header />
       <HeroSection />
       {/* <ProjectSection /> */}

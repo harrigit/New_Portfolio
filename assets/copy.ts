@@ -137,16 +137,16 @@ export const CARRIER_TIMELINE: CarrierTimeline[] = [
       "At Micromerger, I took on the role of a Full Stack Web Developer, where I contributed to the development of large-scale web and mobile applications. Leveraging cloud technologies and best coding practices, I was responsible for building robust, user-friendly interfaces, optimizing application performance, and ensuring seamless integration between front-end and back-end systems. My role required me to work closely with product managers, designers, and stakeholders to translate project requirements into tangible, high-impact solutions.",
   },
   {
-    date: "Oct 2017 - Sept 2021",
-    company: "Fiverr | Upwork",
+    date: "Oct 2017 - Present",
+    company: "Upwork",
     position: "Web Developer",
     jobDescription:
-      "During my tenure as a Web Developer on platforms like Fiverr and Upwork, I honed my skills in JavaScript development and established myself as a versatile developer with expertise in creating custom web solutions. My role involved collaborating with a diverse clientele on various projects, from website enhancements and front-end optimizations to building interactive web applications. I acquired proficiency in problem-solving and debugging, ensuring that projects met client specifications and delivered exceptional user experiences.",
+      "During my tenure as a Web Developer on Upwork, I honed my skills in JavaScript development and established myself as a versatile developer with expertise in creating custom web solutions. My role involved collaborating with a diverse clientele on various projects, from website enhancements and front-end optimizations to building interactive web applications. I acquired proficiency in problem-solving and debugging, ensuring that projects met client specifications and delivered exceptional user experiences.",
   },
 ];
 
 export const CONTACT: Contact = {
   phoneNumber: "+92 302-1711192",
-  email: "hireme@naremis.com",
+  email: "naveed@naremis.com",
   skype: "live:naveedabdullah700",
 };
