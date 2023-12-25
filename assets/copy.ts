@@ -1,8 +1,7 @@
 import { Project, Technology, TechLevel, DetailTechList, CarrierTimeline, Contact } from "@/types";
 
 export const HERO_DESCRIPTION =
-  "I'm Naveed Abdullah, a Full-Stack Web Developer with a passion for building exceptional web applications and interfaces. With a rich blend of frontend finesse and backend wizardry, I transform ideas into seamless, user-centric online experiences.";
-
+  "I'm Naveed Abdullah, a Computer Science graduate and Full-Stack Web Developer with a knack for crafting dazzling web applications and user-centric interfaces. With a fusion of frontend finesse and backend wizardry, I turn ideas into seamless, user-engaging online experiences.";
 export const PROJECTS: Project[] = [
   {
     name: "PNR Portal",
@@ -55,11 +54,12 @@ export const DETAIL_TECH_LIST: DetailTechList[] = [
     listing: [
       "HTML5, CSS3, and preprocessors (e.g., Sass)",
       "JavaScript (ES6+), Typescript ",
-      "Frontend frameworks (e.g., React, NextJS)",
-      "State management libraries (e.g., Redux, Redux Toolkit, Zustand)",
+      "Frontend frameworks (e.g., React, NextJS, Astro, React Native)",
+      "Server-side rendering (SSR), CSR, ISR, SSG",
+      "State management libraries (e.g., Redux, Redux Toolkit, Zustand, Context API)",
       "Responsive and mobile-first design ",
       "CSS frameworks (e.g., Bootstrap, Tailwind)",
-      "UI libraries (e.g., Antd, Material UI, Semantic UI)",
+      "UI libraries (e.g., Antd, Material UI, Semantic UI, Core UI)",
       "Web performance optimization techniques ",
       "Cross-browser compatibility and debugging",
     ],
@@ -69,8 +69,7 @@ export const DETAIL_TECH_LIST: DetailTechList[] = [
     listing: [
       "Programming languages (e.g., Node.js)",
       "Web frameworks (e.g., Express.js, Nest JS, Flask)",
-      "RESTful API design and development",
-      "Server-side rendering (SSR), CSR, ISR",
+      "RESTful API, GraphQL API design and development",
       "Database systems (e.g., MySQL, PostgreSQL, MongoDB)",
       "ORM/ODM libraries (e.g., Mongoose, PG, Prisma)",
       "Authentication and authorization (e.g., JWT, OAuth, Keycloak, Auth0)",

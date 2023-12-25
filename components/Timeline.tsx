@@ -5,14 +5,14 @@ import React from "react";
 function Timeline() {
   return (
     <div className="mt-4">
-      <ol className="xl:hidden relative border-l-2 border-secondary">
+      <ol className="xl:hidden relative border-l-[1px] border-secondary">
         {CARRIER_TIMELINE.map((carrier, index) => (
           <li key={index} className="ml-8">
             <div className="absolute w-4 h-4 rounded-full -left-[9px] bg-gradient-to-r from-secondary to-accent"></div>
             <time className="mb-1 text-sm font-normal leading-none opacity-50">
               {carrier.date}
             </time>
-            <h3 className="text-lg font-semibold opacity-90">
+            <h3 className="text-lg font-semibold opacity-90 text-secondary">
               {carrier.position}
             </h3>
             <p className="mb-4 text-base font-semibold opacity-80">
@@ -25,7 +25,7 @@ function Timeline() {
         ))}
       </ol>
 
-      <ol className="items-start hidden xl:flex border-t-2 border-secondary">
+      <ol className="items-start hidden xl:flex border-t-[1px] border-secondary">
         {CARRIER_TIMELINE.map((carrier, index) => (
           <li key={index} className="relative mb-6 sm:mb-0">
             <div className="flex items-center">
@@ -35,7 +35,7 @@ function Timeline() {
               <div className="hidden sm:flex w-full h-0.5"></div>
             </div>
             <div className="mt-6 sm:pr-8">
-              <h3 className="text-xl font-semibold opacity-90">
+              <h3 className="text-xl font-semibold opacity-90 text-secondary">
                 {carrier.position}
               </h3>
               <span className="flex items-baseline space-x-4 text-end">
