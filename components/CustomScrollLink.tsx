@@ -14,7 +14,7 @@ interface CustomLinkProps extends LinkProps {
 function CustomScrollLink({ to, children }: CustomLinkProps) {
   return (
     <ScrollLink to={to} smooth={true} duration={800} spy={true} offset={-20}>
-      <span className='text-lg xl:text-xl font-normal lg:font-bold cursor-pointer'>
+      <span className='text-lg font-normal cursor-pointer opacity-70 hover:underline underline-offset-2'>
         {children}
       </span>
     </ScrollLink>

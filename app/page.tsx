@@ -3,7 +3,7 @@ import AdditionalTechnologies from "@/components/AdditionalTechnologies";
 import FooterSection from "@/components/FooterSection";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
-import ProjectSection from "@/components/ProjectSection";
+// import ProjectSection from "@/components/ProjectSection";
 import TechnologiesSection from "@/components/TechnologiesSection";
 
 export default function Home() {
