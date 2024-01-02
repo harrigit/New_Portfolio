@@ -18,7 +18,7 @@ export const PROJECTS: Project[] = [
 export const TECHNOLOGIES: Technology[] = [
   {
     name: "HTML, CSS, SCSS",
-    eg: "",
+    eg: "(e.g, Bootstrap, Tailwind, MUI, AntD)",
     level: TechLevel.Advanced,
   },
   {
@@ -28,12 +28,12 @@ export const TECHNOLOGIES: Technology[] = [
   },
   {
     name: "FRONTEND DEVELOPMENT",
-    eg: "(e.g, ReactJS, NextJS)",
+    eg: "(e.g, ReactJS, NextJS, AstroJS)",
     level: TechLevel.Advanced,
   },
   {
     name: "BACKEND DEVELOPMENT",
-    eg: " (e.g, Nodejs, Express)",
+    eg: " (e.g, Nodejs, Express, NestJS)",
     level: TechLevel.Advanced,
   },
   {
