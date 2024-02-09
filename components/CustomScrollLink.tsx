@@ -21,7 +21,7 @@ function CustomScrollLink({ to, children }: CustomLinkProps) {
       spy={true}
       offset={-20}
     >
-      <span className='text-lg font-normal cursor-pointer opacity-70 hover:underline underline-offset-2'>
+      <span className='text-lg font-normal cursor-pointer opacity-90 hover:underline underline-offset-2'>
         {children}
       </span>
     </ScrollLink>
