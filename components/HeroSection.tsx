@@ -23,12 +23,14 @@ function HeroSection() {
             <a
               href='/Naveed_Resume.pdf'
               target='_blank'
+              aria-label='Download CV'
               download={true}
               className='px-5 col-span-2 py-3 text-center shadow-md rounded-3xl text-slate-200 glow bg-gradient-to-r from-secondary to-accent'
             >
               <span className='font-semibold'>Download CV</span>
             </a>
             <a
+              aria-label='Hire Me on Upwork'
               href={SOCIAL_LINKS.upworkURL}
               className='px-5 col-span-2 py-3 shadow-md  text-center rounded-3xl text-slate-200 glow bg-gradient-to-r from-accent to-secondary'
             >
