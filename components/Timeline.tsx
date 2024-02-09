@@ -18,7 +18,7 @@ function Timeline() {
             <p className='mb-4 text-base font-semibold opacity-90'>
               {carrier.company}
             </p>
-            <p className='mb-4 text-base font-normal opacity-80'>
+            <p className='mb-4 text-base font-normal opacity-90'>
               {carrier.jobDescription}
             </p>
           </li>
@@ -39,14 +39,14 @@ function Timeline() {
                 {carrier.position}
               </h3>
               <span className='flex items-baseline space-x-4 text-end'>
-                <p className='text-base font-semibold opacity-80'>
+                <p className='text-base font-semibold opacity-90'>
                   {carrier.company}
                 </p>
-                <p className='block mb-2 font-normal leading-none opacity-80'>
+                <p className='block mb-2 font-normal leading-none opacity-90'>
                   {carrier.date}
                 </p>
               </span>
-              <p className='text-base font-normal opacity-80'>
+              <p className='text-base font-normal opacity-90'>
                 {carrier.jobDescription}
               </p>
             </div>
