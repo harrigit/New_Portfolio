@@ -1,6 +1,5 @@
-import { CARRIER_TIMELINE } from "@/assets/copy";
-import { CarrierTimeline } from "@/types";
-import React from "react";
+import { CARRIER_TIMELINE } from '@/assets/copy';
+import React from 'react';
 
 function Timeline() {
   return (
@@ -9,7 +8,7 @@ function Timeline() {
         {CARRIER_TIMELINE.map((carrier, index) => (
           <li key={index} className='ml-8'>
             <div className='absolute w-4 h-4 rounded-full -left-[9px] bg-gradient-to-r from-secondary to-accent'></div>
-            <time className='mb-1 text-sm font-normal leading-none opacity-50'>
+            <time className='mb-1 text-sm font-normal leading-none opacity-90'>
               {carrier.date}
             </time>
             <h3 className='text-lg font-semibold text-secondary'>
