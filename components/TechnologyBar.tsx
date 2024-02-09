@@ -6,10 +6,12 @@ function TechnologyBar({ name, level, eg }: Technology) {
     <div className='my-12'>
       <div className='flex justify-between my-4 space-x-2'>
         <div className='flex flex-col lg:flex-row md:space-x-4'>
-          <span className='text-normal lg:text-lg font-normal lg:font-bold'>{name}</span>
-          <span className='text-normal font-semibold text-gray-500'>{eg}</span>
+          <h3 className='text-normal lg:text-lg font-normal lg:font-bold'>
+            {name}
+          </h3>
+          <p className='text-normal font-semibold'>{eg}</p>
         </div>
-        <span className='text font-bold  md:mr-[5rem]'>{TechLevel[level]}</span>
+        <p className='text font-bold  md:mr-[5rem]'>{TechLevel[level]}</p>
       </div>
       <div
         className={`h-2 md:h-4 ${TechLevel[
