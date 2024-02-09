@@ -1,11 +1,15 @@
-import Head from 'next/head';
-import AboutmeSections from '@/components/AboutmeSections';
-import AdditionalTechnologies from '@/components/AdditionalTechnologies';
-import FooterSection from '@/components/FooterSection';
+import dynamic from 'next/dynamic';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
-// import ProjectSection from "@/components/ProjectSection";
 import TechnologiesSection from '@/components/TechnologiesSection';
+const DynamicAdditionalTechnologies = dynamic(
+  () => import('@/components/AdditionalTechnologies')
+);
+const DynamicAboutmeSection = dynamic(
+  () => import('@/components/AboutmeSections')
+);
+import FooterSection from '@/components/FooterSection';
+// import ProjectSection from "@/components/ProjectSection";
 
 export default function Home() {
   return (
@@ -14,8 +18,8 @@ export default function Home() {
       <HeroSection />
       {/* <ProjectSection /> */}
       <TechnologiesSection />
-      <AdditionalTechnologies />
-      <AboutmeSections />
+      <DynamicAdditionalTechnologies />
+      <DynamicAboutmeSection />
       <FooterSection />
     </main>
   );
