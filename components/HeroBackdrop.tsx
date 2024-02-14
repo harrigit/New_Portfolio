@@ -9,7 +9,7 @@ function HeroBackdrop() {
       </div>
 
       {/* Small Circle */}
-      <div className='absolute bg-gradient-to-r from-secondary to-accent rounded-full w-32 h-32 -right-[2rem] lg:right-[4rem]  top-[12rem] lg:top-[16rem] z-0 glow'></div>
+      <div className='absolute bg-gradient-to-r overflow-hidden from-secondary to-accent rounded-full w-32 h-32 right-[7rem] lg:right-[4rem] top-[2rem] lg:top-[16rem] z-0 glow'></div>
     </div>
   );
 }
