@@ -25,6 +25,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
+      <Head>
+        <title>Naveed Abdullah | Software Engineer</title>
+        <meta name='description' content={metadata.description!} />
+        <meta property='og:title' content='Naveed Abdullah Portfolio Website' />
+        <meta property='og:description' content={metadata.description!} />
+      </Head>
       <body
         className={`${inter.variable} ${inter.className} antialiased bg-primary`}
       >
