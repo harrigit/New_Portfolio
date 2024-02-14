@@ -1,5 +1,4 @@
 import './globals.css';
-import Head from 'next/head';
 import dynamic from 'next/dynamic';
 import { Inter } from 'next/font/google';
 import { Metadata } from 'next';
@@ -13,7 +12,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Naveed Portfolio',
+  title: 'Naveed Abdullah',
   description: 'Portfolio of Naveed Abdullah, a Software Engineer',
 };
 
@@ -25,12 +24,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <Head>
-        <title>Naveed Abdullah | Software Engineer</title>
-        <meta name='description' content={metadata.description!} />
-        <meta property='og:title' content='Naveed Abdullah Portfolio Website' />
-        <meta property='og:description' content={metadata.description!} />
-      </Head>
       <body
         className={`${inter.variable} ${inter.className} antialiased bg-primary`}
       >
