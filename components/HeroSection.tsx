@@ -23,8 +23,8 @@ function HeroSection() {
         {/* Add some shapes to the backend make it more interesting */}
         <div className='space-y-12 z-10 my-24 lg:my-32 col-span-2 lg:col-span-1 order-2 lg:order-1'>
           <div>
-            <div className='bg-clip-text text-transparent bg-gradient-to-r from-secondary to-accent text-7xl inline-block'>
-              <h1 className='typewriter'>
+            <div className='bg-clip-text text-transparent bg-gradient-to-r from-secondary to-accent inline-block'>
+              <h1 className='typewriter mt-12 md:mt-2 text-5xl md:text-7xl '>
                 {'Hi, '}
                 {text}
               </h1>
