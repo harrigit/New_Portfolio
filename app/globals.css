@@ -37,11 +37,15 @@ body {
 }
 
 .advanced {
-  width: 75%;
+  width: 85%;
 }
 
 .proficient {
   width: 66%;
+}
+
+.beginner {
+  width: 50%;
 }
 
 @media (max-width: 1024px) {
@@ -73,11 +77,12 @@ svg {
 
 .typewriter {
   overflow: hidden;
-  border-right: 3px solid orange;
+  border-right: 3px solid;
   padding-right: 3px;
   white-space: nowrap;
   display: inline-block;
   animation: blinkCursor 0.75s step-end infinite;
+  @apply border-secondary;
 }
 
 @keyframes fadeInUpLeft {

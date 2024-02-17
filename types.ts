@@ -5,13 +5,15 @@ export interface Project {
   image: string | null;
   date?: string;
   githubLink?: string;
-  websiteLink?: string;
+  websiteLink: string;
 }
+
 
 export enum TechLevel {
   Advanced,
   Proficient,
   Learning,
+  Beginner
 }
 
 export interface Technology {

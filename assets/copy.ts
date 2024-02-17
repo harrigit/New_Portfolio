@@ -4,47 +4,102 @@ export const HERO_DESCRIPTION =
   "I'm Naveed Abdullah, a Computer Science graduate and Full-Stack Web Developer with a knack for crafting dazzling web applications and user-centric interfaces. With a fusion of frontend finesse and backend wizardry, I turn ideas into seamless, user-engaging online experiences.";
 export const PROJECTS: Project[] = [
   {
-    name: "PNR Portal",
-    date: "August-2019",
+    name: 'Restor Metabolix',
+    date: 'July-2023 - December-2023',
     description:
-      "A portal used by International Islamic University to manage all the Final Year Projects and Research. This portal digitalized the whole process of project management",
-    technologies: ["react", "nodejs", "mongodb", "express"],
-    githubLink: "https://github.com/naveed-niazi",
-    websiteLink: "http://pnr.iiu.edu.pk:64469",
-    image: "/PNR.png",
+      'A web application for Restor Metabolix, that helps in managing the whole procedure of infusion therapy. It includes the management of patients, appointments, and the whole process of infusion therapy.',
+    technologies: ['nextjs', 'tailwindcss', 'postgres', 'nestjs'],
+    websiteLink: 'https://app.restor.dev',
+    image: '/pnr.webp',
   },
+  {
+    name: 'BAKA',
+    date: 'January-2023 - Present',
+    description:
+      'A social media platform that uses the power of AI to generate stories and posts for the users. It uses stable diffusion, and langchain to generate content and MetaMask for coin transactions.',
+    technologies: ['nextjs', 'tRPC', 'knock', 'postgres', 'PWA'],
+    websiteLink: 'https://www.baka.rocks/',
+    image: '/baka.webp',
+  },
+  {
+    name: 'Clinisys',
+    date: 'December-2023 - Present',
+    description:
+      'The most powerful healthcare automation and AI platform, that leverages the power of Automation and AI to identify clinical errors that impact your health system, and provides actionable insights to improve outcomes with reports and alerts.',
+    technologies: ['nextjs', 'mui', 'postgres', 'nestjs', 'aws'],
+    websiteLink: 'https://clinisys.ai/',
+    image: '/clinisys.webp',
+  },
+  {
+    name: 'DriverDeck',
+    date: 'Oct-2021 - December 2022',
+    description:
+      'An application that is a part of large ecosystem of PropDispatch. It includes the management of drivers, vehicles, and the whole process loads assignement from pickup to delivery and shifts management along side different zone in multi-tenant enviroment.',
+    websiteLink: 'https://www.driverdeck.app/',
+    technologies: ['react', 'AntD', 'dynamodb', 'aws', 'lambda'],
+    image: '/driverdeck.webp',
+  },
+  {
+    name: 'HB Offline',
+    date: 'December-2022 - May-2023',
+    description:
+      'A mobile application that is a part of MUMMS Software ecosystem. It is used by the health workers who visit patients at their location. This app managed appointments for them and the whole vital logs along with notes and medical history of that patient.',
+    technologies: ['react native', 'ios', 'android'],
+    websiteLink: 'https://apps.apple.com/us/app/hb-offline/id1644137277',
+    image: '/mumms.webp',
+  },
+  {
+    name: 'PNR Portal',
+    date: 'August-2019',
+    description:
+      'A portal used by International Islamic University to manage all the Final Year Projects and Research. This portal digitalized the whole process of project management',
+    technologies: ['react', 'nodejs', 'mongodb', 'express'],
+    websiteLink: 'http://pnr.iiu.edu.pk:64469',
+    image: '/pnr.webp',
+  },
+
 ];
 
 export const TECHNOLOGIES: Technology[] = [
   {
-    name: "HTML, CSS, SCSS",
-    eg: "(e.g, Bootstrap, Tailwind, MUI, AntD)",
+    name: 'HTML, CSS, SCSS',
+    eg: '(e.g, Tailwind, MUI, AntD)',
     level: TechLevel.Advanced,
   },
   {
-    name: "PROGRAMMING LANGUAGES ",
-    eg: "(e.g, Javascript, Typescript)",
+    name: 'PROGRAMMING LANGUAGES ',
+    eg: '(e.g, Javascript, Typescript)',
     level: TechLevel.Advanced,
   },
   {
-    name: "FRONTEND DEVELOPMENT",
-    eg: "(e.g, ReactJS, NextJS, AstroJS)",
+    name: 'FRONTEND DEVELOPMENT',
+    eg: '(e.g, ReactJS, NextJS, AstroJS)',
     level: TechLevel.Advanced,
   },
   {
-    name: "BACKEND DEVELOPMENT",
-    eg: " (e.g, Nodejs, Express, NestJS)",
+    name: 'BACKEND DEVELOPMENT',
+    eg: ' (e.g, Nodejs, Express, NestJS)',
     level: TechLevel.Advanced,
   },
   {
-    name: "CLOUD DEVELOPMENT",
-    eg: "(e.g, AWS, GCP)",
+    name: 'DATABASES',
+    eg: ' (e.g, SQL, NoSQL)',
+    level: TechLevel.Advanced,
+  },
+  {
+    name: 'CLOUD DEVELOPMENT',
+    eg: '(e.g, AWS, GCP)',
     level: TechLevel.Proficient,
   },
   {
-    name: "MOBILE APP DEVELOPMENT ",
-    eg: "(e.g, React Native)",
+    name: 'MOBILE APP DEVELOPMENT ',
+    eg: '(e.g, React Native)',
     level: TechLevel.Proficient,
+  },
+  {
+    name: 'AI DEVELOPMENT',
+    eg: '(e.g, Langchain, Pinecones)',
+    level: TechLevel.Beginner,
   },
 ];
 

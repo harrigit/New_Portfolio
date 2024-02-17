@@ -17,7 +17,9 @@ function Header() {
         {/* <div className='space-x-5 text-xl w-full cursor-pointer flex flex-grow'> */}
         {/* <CustomScrollLink to="projects">Projects</CustomScrollLink> */}
         <CustomScrollLink to='technologies'>Technologies</CustomScrollLink>
-        <CustomScrollLink to='about_me'>About me</CustomScrollLink>
+        <CustomScrollLink to='projects'>Projects</CustomScrollLink>
+        <CustomScrollLink to='about_me'>Career</CustomScrollLink>
+
         {/* </div> */}
       </div>
     </nav>
