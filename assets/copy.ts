@@ -1,7 +1,7 @@
 import { Project, Technology, TechLevel, DetailTechList, CarrierTimeline, Contact } from "@/types";
 
 export const HERO_DESCRIPTION =
-  "I'm Naveed Abdullah, a Computer Science graduate and Full-Stack Web Developer with a knack for crafting dazzling web applications and user-centric interfaces. With a fusion of frontend finesse and backend wizardry, I turn ideas into seamless, user-engaging online experiences.";
+  "Hi, I'm Muhammad Haris Khan, a Quality Assurance Engineer specializing in manual and automated testing, particularly with Cypress.I excel in ensuring top-notch software quality through meticulous testing methodologies and collaborative project contributions.";
 export const PROJECTS: Project[] = [
   {
     name: 'Restor Metabolix',
@@ -169,8 +169,8 @@ export const DETAIL_TECH_LIST: DetailTechList[] = [
 ];
 
 export const SOCIAL_LINKS = {
-  githubUrl: "https://github.com/naveed-niazi",
-  linkedinUrl: "https://www.linkedin.com/in/naveedniazi",
+  githubUrl: "https://github.com/harrigit",
+  linkedinUrl: "https://www.linkedin.com/in/hariskhan7715/",
   mediumURL: "https://medium.com/@naveedniazi",
   upworkURL: "https://www.upwork.com/freelancers/~01a5e6ab918567d37d",
 };

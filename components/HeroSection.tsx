@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 function HeroSection() {
   const [text, setText] = useState('');
-  const fullText = "I'm Naveed,";
+  const fullText = "I'm Haris,";
 
   useEffect(() => {
     if (text.length < fullText.length) {
@@ -30,7 +30,7 @@ function HeroSection() {
               </h1>
             </div>
             <span className='mt-2 text-3xl md:text-5xl block'>
-              full stack developer
+              QA Automation Engineer
             </span>
           </div>
           <p className='text-md opacity-90'>{HERO_DESCRIPTION}</p>
